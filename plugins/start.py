@@ -94,7 +94,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>You need to join our Anime Channel @Anime_Wars to use me\n\nPlease join Channel</b>"
+    text = "<b>You need to join our [Hentai Channel](https://t.me/joinchat/ylE0_MHza1RhMDQx) to get files!\n\nPlease join the Channel!</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
